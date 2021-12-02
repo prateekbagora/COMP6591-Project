@@ -1,4 +1,4 @@
-### Python Library Requirements:
+### Python library requirements:
 - ply (version used: 3.11)
 - pandas (version used: 1.0.5)
 
