@@ -1,0 +1,12 @@
+%Contexts
+cw = {from : [west], to : [left]}.
+ce = {from : [east], to : [right]}.
+
+%Facts
+per(1, east).
+per(2, west).
+per(3, north).
+
+%Rules
+per(X, Y)@C :- per(X, Y), from(Y)@C.
+lib(X, Y)@C :- per(X, Z)@C, to(Y)@C.
