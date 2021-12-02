@@ -12,8 +12,8 @@ Files needed to run a Contelog program:
 Usage of the framework:
 - on Jupyter Notebook: %run contelog.py filename.clg
 - on Python terminal: python contelog.py filename.clg
-** here filename.clg is a Contelog program file
-** it will print all IDB facts inferred from the program
+* here filename.clg is a Contelog program file
+* it will print all IDB facts inferred from the program
 
 To test the parser:
 - on Jupyter Notebook: %run contelog_parser.py
