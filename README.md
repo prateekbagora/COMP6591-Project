@@ -12,7 +12,7 @@
 #### Usage of the framework:
 - on Jupyter Notebook: %run contelog.py filename.clg
 - on Python terminal: python contelog.py filename.clg
-<p align="justify">Here filename.clg is a Contelog program file. This command will print all IDB facts inferred from the program.</b>
+  <p align="justify">Here filename.clg is a Contelog program file. This command will print all IDB facts inferred from the program.</b>
 
 #### To test the parser:
 - on Jupyter Notebook: %run contelog_parser.py
